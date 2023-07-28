@@ -9,6 +9,7 @@
     "web#build": {
       "dependsOn": ["^build"],
       "outputs": [".next/**", "!.next/cache/**"]
+      
     },
     "lint": {},
     "dev": {
