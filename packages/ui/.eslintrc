@@ -1,0 +1,9 @@
+{
+  "root": true,
+  "ignorePatterns": [".eslintrc"],
+  "extends": ["@repo/eslint/index.js"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": true
+  }
+}

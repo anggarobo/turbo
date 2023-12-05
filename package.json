@@ -1,0 +1,27 @@
+{
+  "name": "turbo",
+  "license": "MIT",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "@repo/eslint": "workspace:*",
+    "@repo/tsconfig": "workspace:*",
+    "prettier": "^3.1.0",
+    "turbo": "^1.10.16"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "packageManager": "npm@8.6.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "config/*"
+  ]
+}
